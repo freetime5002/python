@@ -6,8 +6,8 @@ import json
 from botocore.exceptions import ClientError
 
 #Bedrock Client generation
-client = boto3.client("bedrock-runtime", region_name="us-west-2")
-#client = boto3.client("bedrock-runtime", region_name="us-east-1")
+#client = boto3.client("bedrock-runtime", region_name="us-west-2")
+client = boto3.client("bedrock-runtime", region_name="us-east-1")
 
 #모델 ID 및 프롬프트 설정
 model_id= "anthropic.claude-3-haiku-20240307-v1:0"
